@@ -1,16 +1,92 @@
-<<<<<<< HEAD
-# React + Vite
+# React Landing Page – Fashion Theme
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, fast, and modern landing page built using **React.js**, **Tailwind CSS**, and **Figma design references**. The project highlights stylish sections like hero, plans, reviews, services, and carousel—all optimized for performance and user experience.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+project video :   https://youtu.be/hnrXqkZJoG0
+👉 [Visit Live Website](https://fashionlandingpageriyadh2002.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# LandingPage_4
->>>>>>> 19507be5d87ef8892fd41ef953fa9e0b8dde3433
+## ✨ Features
+
+- Pixel-perfect design from Figma
+- Fully responsive for mobile, tablet, and desktop
+- Scroll animations and interactive UI
+- Clean code with reusable components
+- Developer-friendly structure
+- Integrated images and assets from design
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **Vite** (for fast development)
+- **Tailwind CSS**
+- **Netlify** (for deployment)
+
+---
+
+## 📁 Project Structure
+
+src/
+├── assets/
+│ ├── image/
+│ │ ├── Customer.png
+│ │ ├── Hero.png
+│ │ ├── Hotel.png
+│ │ ├── Message.png
+│ │ ├── Women1.png
+│ │ ├── descriptLogo.png
+│ │ ├── green.png
+│ │ ├── intercom.png
+│ │ ├── laptop.png
+│ │ ├── lightRed.jpg
+│ │ ├── notionLogo.png
+│ │ ├── red.jpg
+│ │ ├── volument.png
+│ │ ├── women.png
+│ │ ├── yellow.png
+│ │ └── react.svg
+│
+├── components/
+│ ├── Carosol.jsx
+│ ├── Hero.jsx
+│ ├── Hotel.jsx
+│ ├── Logo.jsx
+│ ├── Plan.jsx
+│ ├── Review.jsx
+│ └── Service.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+
+---
+
+## 🚀 Getting Started (For Developers)
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Riyadh2002/LandingPage_4.git
+cd LandingPage_4
+npm install
+npm run dev
+The project will run locally at http://localhost:5173/.
+
+
+📦 Deployment
+This project is deployed using Netlify. You can easily connect your GitHub repo to Netlify and enjoy CI/CD.
+
+🧑‍💻 Author
+Riyad
+Front-end Developer & UI/UX Enthusiast
+GitHub: @Riyadh2002
+
+📬 Contact
+Feel free to reach out for collaboration or freelance work!
